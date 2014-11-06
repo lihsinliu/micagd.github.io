@@ -22,7 +22,7 @@ body {
      padding: 0;
 	max-width:960px;
 	   margin: 0px auto;
-    text-align: center;
+ 
   
 }
 
@@ -156,6 +156,7 @@ ul#menu, #menu ul {
   bottom:0;
   left:-400px;
   z-index:4;
+  text-align:center;
 }
 
 #menu li{
@@ -245,7 +246,7 @@ ul#menu, #menu ul {
   height:16px;
   width:16px;
   top:12px;
-  right:15px;
+  right:22px;
   border-top:5px solid #929292;
   border-right:5px solid #929292;
   -webkit-transform:rotate(45deg);
@@ -486,7 +487,8 @@ li .item{text-decoration: none;
 padding: 0;
 margin: 0;
 list-style-type: none;
-width:400px;}
+width:400px;
+}
 
 ul {text-decoration: none;
 padding: 0;
@@ -558,5 +560,81 @@ float:left;}
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background-color:black;
+	background:black no-repeat;
 }
+
+ul.link.list{
+	width:10px;}
+	
+	.top-divider, .bottom-divider{
+	width:100%;
+	height:9px;
+	background:url(img/divider.png) repeat-x;
+	clear:both;
+}
+.top-divider{margin-bottom:40px;}
+.bottom-divider{margin-top:40px;}
+
+
+ul .link .list{
+	display:inline;
+}
+
+
+/****************************************************/
+/* ABOUT SECTION */
+/****************************************************/
+
+#about{ padding:10px 10px 10px 10px; 	overflow:visible}
+#about h1{float:left;padding-top:100px;}
+#about #top-social{float:right; padding-top:10px;padding-left:155px;}
+#about #top-social li{float:left; list-style:none; margin-left:10px;}
+#about #top-social .facebook{
+	text-indent:-9999px; 
+	display:block; 
+	width:26px; 
+	height:26px; 
+	background:url(../images/sm-facebook-icon.png) no-repeat;
+
+
+}
+#about #top-social .twitter{
+	text-indent:-9999px; 
+	display:block; 
+	width:31px; 
+	height:24px; 
+	background:url(../images/sm-twitter-icon.png) no-repeat;
+}
+#about #top-social .linkedin{
+	text-indent:-9999px; 
+	display:block; 
+	width:26px; 
+	height:26px; 
+	background:url(../images/sm-linkedin-icon.png) no-repeat;
+}
+#about .content{overflow:auto;}
+#about .content img{float:left; padding:10px 10px 10px 10px;}
+#about .content #service-icons{margin-top:20px;}
+#about .content #service-icons li{
+	display:block;
+	width:108px;
+	height:108px;
+	text-indent:-9999px;
+	list-style:none;
+	float:left;
+	margin-right:20px;
+}
+
+/****************************************************/
+/* EXPERIENCE SECTION */
+/****************************************************/
+
+#experience{margin:0px 43px; padding-top:100px;}
+#experience .col{
+	width:50%;
+	float:left;
+	padding: 20px 20px 20px 20px;
+}
+#experience .content{
+	overflow:visible}
+
